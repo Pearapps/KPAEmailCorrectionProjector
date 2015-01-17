@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C65D261A3CAA6B006B5224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C65D251A3CAA6B006B5224 /* main.m */; };
+		B9C65D2E1A3CAA85006B5224 /* KPAEmailCorrectionProjector.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C65D2D1A3CAA85006B5224 /* KPAEmailCorrectionProjector.m */; };
+		B9C65D311A3D2E8E006B5224 /* KPAEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C65D301A3D2E8E006B5224 /* KPAEmail.m */; };
+		B9F5115E1A6AFB7800D385BB /* NSString+KPAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F5115D1A6AFB7800D385BB /* NSString+KPAAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9C65D201A3CAA6B006B5224 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B9C65D221A3CAA6B006B5224 /* EmailCorrectionProjector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmailCorrectionProjector; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C65D251A3CAA6B006B5224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9C65D2C1A3CAA85006B5224 /* KPAEmailCorrectionProjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAEmailCorrectionProjector.h; sourceTree = "<group>"; };
+		B9C65D2D1A3CAA85006B5224 /* KPAEmailCorrectionProjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAEmailCorrectionProjector.m; sourceTree = "<group>"; };
+		B9C65D2F1A3D2E8E006B5224 /* KPAEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAEmail.h; sourceTree = "<group>"; };
+		B9C65D301A3D2E8E006B5224 /* KPAEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAEmail.m; sourceTree = "<group>"; };
+		B9F5115C1A6AFB7800D385BB /* NSString+KPAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KPAAdditions.h"; sourceTree = "<group>"; };
+		B9F5115D1A6AFB7800D385BB /* NSString+KPAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KPAAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C65D1F1A3CAA6B006B5224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C65D191A3CAA6B006B5224 = {
+			isa = PBXGroup;
+			children = (
+				B9C65D241A3CAA6B006B5224 /* EmailCorrectionProjector */,
+				B9C65D231A3CAA6B006B5224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C65D231A3CAA6B006B5224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C65D221A3CAA6B006B5224 /* EmailCorrectionProjector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C65D241A3CAA6B006B5224 /* EmailCorrectionProjector */ = {
+			isa = PBXGroup;
+			children = (
+				B9C65D251A3CAA6B006B5224 /* main.m */,
+				B9F5115C1A6AFB7800D385BB /* NSString+KPAAdditions.h */,
+				B9F5115D1A6AFB7800D385BB /* NSString+KPAAdditions.m */,
+				B9C65D2C1A3CAA85006B5224 /* KPAEmailCorrectionProjector.h */,
+				B9C65D2D1A3CAA85006B5224 /* KPAEmailCorrectionProjector.m */,
+				B9C65D2F1A3D2E8E006B5224 /* KPAEmail.h */,
+				B9C65D301A3D2E8E006B5224 /* KPAEmail.m */,
+			);
+			name = EmailCorrectionProjector;
+			path = EmailValidation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C65D211A3CAA6B006B5224 /* EmailCorrectionProjector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C65D291A3CAA6B006B5224 /* Build configuration list for PBXNativeTarget "EmailCorrectionProjector" */;
+			buildPhases = (
+				B9C65D1E1A3CAA6B006B5224 /* Sources */,
+				B9C65D1F1A3CAA6B006B5224 /* Frameworks */,
+				B9C65D201A3CAA6B006B5224 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailCorrectionProjector;
+			productName = EmailValidation;
+			productReference = B9C65D221A3CAA6B006B5224 /* EmailCorrectionProjector */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C65D1A1A3CAA6B006B5224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kenny Ackerson";
+				TargetAttributes = {
+					B9C65D211A3CAA6B006B5224 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B9C65D1D1A3CAA6B006B5224 /* Build configuration list for PBXProject "EmailCorrectionProjector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9C65D191A3CAA6B006B5224;
+			productRefGroup = B9C65D231A3CAA6B006B5224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C65D211A3CAA6B006B5224 /* EmailCorrectionProjector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C65D1E1A3CAA6B006B5224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F5115E1A6AFB7800D385BB /* NSString+KPAAdditions.m in Sources */,
+				B9C65D311A3D2E8E006B5224 /* KPAEmail.m in Sources */,
+				B9C65D261A3CAA6B006B5224 /* main.m in Sources */,
+				B9C65D2E1A3CAA85006B5224 /* KPAEmailCorrectionProjector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9C65D271A3CAA6B006B5224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B9C65D281A3CAA6B006B5224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B9C65D2A1A3CAA6B006B5224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = EmailCorrectionProjector;
+			};
+			name = Debug;
+		};
+		B9C65D2B1A3CAA6B006B5224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = EmailCorrectionProjector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C65D1D1A3CAA6B006B5224 /* Build configuration list for PBXProject "EmailCorrectionProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C65D271A3CAA6B006B5224 /* Debug */,
+				B9C65D281A3CAA6B006B5224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C65D291A3CAA6B006B5224 /* Build configuration list for PBXNativeTarget "EmailCorrectionProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C65D2A1A3CAA6B006B5224 /* Debug */,
+				B9C65D2B1A3CAA6B006B5224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C65D1A1A3CAA6B006B5224 /* Project object */;
+}
