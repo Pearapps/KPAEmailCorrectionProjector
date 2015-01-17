@@ -67,6 +67,7 @@
 
 }
 
+// The known domains to use to base the projections off of.
 + (NSArray *)domains {
     return [NSArray arrayWithObjects:@"gmail", @"yahoo", @"msn", @"icloud", @"ymail", @"facebook", @"aol", @"outlook", nil];
 }

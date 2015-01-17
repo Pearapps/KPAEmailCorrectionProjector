@@ -21,6 +21,10 @@ typedef void (^KPAEmailCorrectorCompletionBlock)(BOOL madeProjection, KPAEmail *
 
 @interface KPAEmailCorrectionProjector : NSObject
 
+/**
+ *  @param email      Email used to project.
+ *  @param completion Called with parameters on completion.
+ */
 + (void)projectEmailAccuracy:(KPAEmail *)email completion:(KPAEmailCorrectorCompletionBlock)completion;
 
 @end
