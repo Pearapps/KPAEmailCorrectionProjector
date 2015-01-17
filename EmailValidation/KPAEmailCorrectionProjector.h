@@ -17,6 +17,13 @@ typedef NS_ENUM(NSInteger, KPAEmailCorrectorProjectionAccuracy) {
     KPAEmailCorrectorProjectionAccuracyHigh // Really high probability that the projection is accurate.
 };
 
+/**
+ *  Definition of the completion block.
+ *
+ *  @param madeProjection     Whether or not KPAEmailCorrectionProjector was able to project a different email.
+ *  @param emailProjection    The email projection.
+ *  @param projectionAccuracy How accruate the projection is.
+ */
 typedef void (^KPAEmailCorrectorCompletionBlock)(BOOL madeProjection, KPAEmail *emailProjection, KPAEmailCorrectorProjectionAccuracy projectionAccuracy);
 
 @interface KPAEmailCorrectionProjector : NSObject
